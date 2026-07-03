@@ -1,6 +1,6 @@
 # Game Of Life
 
-An implementation of Conway's Game of Life
+An implementation of Conway's Game of Life.
 
 ## Description
 
@@ -66,7 +66,7 @@ make
 ```
 
 This creates
- - `build/gol` - the terminal demo of our game, written in C
+ - `build/gol` - the terminal demo of the game, written in C
 
  - `build/libgol.so` - the C backend library for our game, used in our 
 Python frontend
@@ -83,6 +83,7 @@ python3 game_of_life.py
 ```
 
 For the terminal version of the game, run:
+
 ```bash
 ./build/gol
 ```
@@ -93,6 +94,7 @@ This instantiates a random board set to the size of your terminal, and simulates
 ## Testing
 
 To test the project with the included tests, run:
+
 ```bash
 make test
 ```
